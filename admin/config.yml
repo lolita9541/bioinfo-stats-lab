@@ -10,6 +10,29 @@ media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
 
 collections:
+  - name: "site"
+    label: "網站基本資料 Site"
+    files:
+      - name: "about"
+        label: "關於我 About Me"
+        file: "content/site/about.yml"
+        fields:
+          - {label: "中文主標題", name: "headline_zh", widget: "string"}
+          - {label: "English Headline", name: "headline_en", widget: "string"}
+          - {label: "中文介紹第一段", name: "intro1_zh", widget: "text"}
+          - {label: "English Intro 1", name: "intro1_en", widget: "text"}
+          - {label: "中文介紹第二段", name: "intro2_zh", widget: "text"}
+          - {label: "English Intro 2", name: "intro2_en", widget: "text"}
+          - label: "特色 Highlights"
+            name: "highlights"
+            widget: "list"
+            fields:
+              - {label: "Icon", name: "icon", widget: "string", default: "✦"}
+              - {label: "中文標題", name: "title_zh", widget: "string"}
+              - {label: "English Title", name: "title_en", widget: "string"}
+              - {label: "中文說明", name: "description_zh", widget: "text"}
+              - {label: "English Description", name: "description_en", widget: "text"}
+
   - name: "tutorials"
     label: "教學資源 Tutorials"
     folder: "content/tutorials"
@@ -50,5 +73,16 @@ collections:
       - {label: "English Name", name: "title_en", widget: "string"}
       - {label: "中文簡介", name: "description_zh", widget: "text"}
       - {label: "English Description", name: "description_en", widget: "text", required: false}
+      - {label: "卡片色彩", name: "color", widget: "select", options: ["purple","blue","mint","pink"], default: "purple"}
+      - {label: "Icon", name: "icon", widget: "string", default: "✦"}
+      - label: "中文服務項目"
+        name: "items_zh"
+        widget: "list"
+        field: {label: "項目", name: "item", widget: "string"}
+      - label: "English Service Items"
+        name: "items_en"
+        widget: "list"
+        required: false
+        field: {label: "Item", name: "item", widget: "string"}
       - {label: "顯示順序", name: "order", widget: "number", default: 10, value_type: "int"}
       - {label: "詳細內容", name: "body", widget: "markdown", required: false}
