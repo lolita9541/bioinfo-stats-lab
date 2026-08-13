@@ -1,27 +1,35 @@
-headline_zh: "從研究問題出發，而不是從軟體出發。"
-headline_en: "Start from the research question, not the software."
-intro1_zh: "我是一名生物資訊與統計分析研究者，專注於過敏免疫、母嬰菌相、TCR repertoire 以及多體學資料分析。擅長將生物學問題轉化為可行的分析策略，結合生物資訊與統計方法挖掘數據背後的機制與意義。"
-intro1_en: "I am a bioinformatics and statistical-analysis researcher focusing on allergy and immunology, maternal–infant microbiome, TCR repertoire and multi-omics data. My work translates biological questions into practical analytical strategies and combines computational and statistical methods to uncover mechanisms and meaning behind the data."
-intro2_zh: "我重視的不只是把分析跑完，而是讓每一步都有研究邏輯：從研究問題、資料品質、統計假設、視覺化到結果解讀，建立清楚、可重現且能支持科研敘事的分析流程。"
-intro2_en: "My goal is not simply to finish an analysis, but to make every step scientifically defensible—from research question and data quality to statistical assumptions, visualization and interpretation—within a clear and reproducible workflow."
+headline_zh: 從研究問題出發，而不是從軟體出發。
+headline_en: Start from the research question, not the software.
+intro1_zh: 我是一名生物資訊與統計分析研究者，專注於過敏免疫、母嬰菌相、TCR repertoire
+  以及多體學資料分析。擅長將生物學問題轉化為可行的分析策略，結合生物資訊與統計方法挖掘數據背後的機制與意義。
+intro1_en: I am a bioinformatics and statistical-analysis researcher focusing on
+  allergy and immunology, maternal–infant microbiome, TCR repertoire and
+  multi-omics data. My work translates biological questions into practical
+  analytical strategies and combines computational and statistical methods to
+  uncover mechanisms and meaning behind the data.
+intro2_zh: 我重視的不只是把分析跑完，而是讓每一步都有研究邏輯：從研究問題、資料品質、統計假設、視覺化到結果解讀，建立清楚、可重現且能支持科研敘事的分析流程。
+intro2_en: My goal is not simply to finish an analysis, but to make every step
+  scientifically defensible—from research question and data quality to
+  statistical assumptions, visualization and interpretation—within a clear and
+  reproducible workflow.
 highlights:
-  - icon: "☼"
-    title_zh: "研究導向的解決方案"
-    title_en: "Research-oriented solutions"
-    description_zh: "以研究問題為核心，提供量身打造的分析策略與方法建議"
-    description_en: "Question-driven analytical strategies tailored to the scientific problem."
-  - icon: "⚗"
-    title_zh: "跨領域整合能力"
-    title_en: "Cross-domain integration"
-    description_zh: "生物資訊 × 統計分析 × 臨床應用 × 機器學習"
-    description_en: "Bioinformatics × statistics × clinical research × machine learning"
-  - icon: "▥"
-    title_zh: "從數據到洞見"
-    title_en: "From data to insight"
-    description_zh: "重視結果解釋、視覺化呈現與研究故事"
-    description_en: "Emphasis on interpretation, visualization and scientific narrative."
-  - icon: "∞"
-    title_zh: "合作與溝通"
-    title_en: "Collaboration & communication"
-    description_zh: "與研究團隊緊密合作，共同推進科學發現"
-    description_en: "Close collaboration with research teams to advance scientific discovery."
+  - icon: ☼
+    title_zh: 研究導向的解決方案
+    title_en: Research-oriented solutions
+    description_zh: 以研究問題為核心，提供量身打造的分析策略與方法建議
+    description_en: Question-driven analytical strategies tailored to the scientific problem.
+  - icon: ⚗
+    title_zh: 跨領域整合能力
+    title_en: Cross-domain integration
+    description_zh: 生物資訊 × 統計分析 × 臨床應用 × 機器學習
+    description_en: Bioinformatics × statistics × clinical research × machine learning
+  - icon: ▥
+    title_zh: 從數據到生物學洞見
+    title_en: From data to biological insight
+    description_zh: 重視結果解釋、視覺化呈現與研究故事
+    description_en: Emphasis on interpretation, visualization and scientific narrative.
+  - icon: ∞
+    title_zh: 合作與溝通
+    title_en: Collaboration & communication
+    description_zh: 與研究團隊緊密合作，共同推進科學發現
+    description_en: Close collaboration with research teams to advance scientific discovery.
