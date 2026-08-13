@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bioinformatics, statistics, microbiome analysis and research strategy services.">
+  <meta name="theme-color" content="#ffffff">
+  <title>Bioinfo & Stats Lab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="#home" aria-label="Bioinfo & Stats Lab Home">
+      <span class="brand-icon" aria-hidden="true">⌁</span>
+      <span class="brand-text">
+        <strong>Bioinfo & Stats Lab</strong>
+        <small>From Data to Biological Insights</small>
+      </span>
+    </a>
+
+    <button class="menu-button" id="menuButton" aria-label="Open menu" aria-expanded="false">☰</button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home"><span data-zh="首頁" data-en="Home">首頁</span><small>Home</small></a>
+      <a href="#about"><span data-zh="關於我" data-en="About Me">關於我</span><small>About Me</small></a>
+      <a href="#services"><span data-zh="服務項目" data-en="Services">服務項目</span><small>Services</small></a>
+      <a href="#research"><span data-zh="研究方向" data-en="Research">研究方向</span><small>Research</small></a>
+      <a href="#tutorials"><span data-zh="教學資源" data-en="Tutorials">教學資源</span><small>Tutorials</small></a>
+      <a href="#contact"><span data-zh="聯絡我" data-en="Contact">聯絡我</span><small>Contact</small></a>
+    </nav>
+
+    <div class="language-switch" aria-label="Language">
+      <button id="zhBtn" class="active" type="button">中文</button>
+      <button id="enBtn" type="button">EN</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="hero-dna" aria-hidden="true">⌬</div>
+    <div class="hero-wave" aria-hidden="true"></div>
+    <div class="container hero-content">
+      <p class="eyebrow">BIOINFORMATICS · STATISTICS · RESEARCH STRATEGY</p>
+
+      <h1>
+        <span class="gradient-text">Bioinformatics × Statistics</span><br>
+        <span data-zh="從數據中挖掘生物學意義，解答真正的研究問題"
+              data-en="Turning data into biological insight and answers to real research questions">
+          從數據中挖掘生物學意義，解答真正的研究問題
+        </span>
+      </h1>
+
+      <p class="hero-description"
+         data-zh="結合生物資訊、統計分析與研究設計思維，協助研究者將複雜的生物數據轉化為可信的科學證據與可延伸的研究發現。"
+         data-en="Integrating bioinformatics, statistical analysis and research-design thinking to transform complex biological data into credible scientific evidence and extensible research insights.">
+        結合生物資訊、統計分析與研究設計思維，協助研究者將複雜的生物數據轉化為可信的科學證據與可延伸的研究發現。
+      </p>
+
+      <div class="hero-buttons">
+        <a class="button primary" href="#services">
+          <span data-zh="探索我的服務" data-en="Explore Services">探索我的服務</span> →
+        </a>
+        <a class="button secondary" href="#research">
+          <span data-zh="瀏覽研究方向" data-en="View Research">瀏覽研究方向</span> →
+        </a>
+      </div>
+
+      <div class="value-strip">
+        <span>✧ <b data-zh="跨領域整合" data-en="Cross-disciplinary">跨領域整合</b></span>
+        <span>▥ <b data-zh="統計思維" data-en="Statistical thinking">統計思維</b></span>
+        <span>◎ <b data-zh="精準分析" data-en="Rigorous analysis">精準分析</b></span>
+        <span>♡ <b data-zh="研究為本" data-en="Research-driven">研究為本</b></span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-copy">
+          <p class="section-label">ABOUT ME</p>
+          <h2><span data-zh="關於我" data-en="About Me">關於我</span> <span class="slash">/</span> About Me</h2>
+
+          <p data-zh="我是一名生物資訊與統計分析研究者，專注於過敏免疫、母嬰菌相、TCR repertoire 以及多體學資料分析。擅長將生物學問題轉化為可行的分析策略，結合生物資訊與統計方法挖掘數據背後的機制與意義。"
+             data-en="I am a bioinformatics and statistical-analysis researcher focusing on allergy and immunology, maternal–infant microbiome, TCR repertoire and multi-omics data. My work translates biological questions into practical analytical strategies and combines computational and statistical methods to uncover mechanisms and meaning behind the data.">
+            我是一名生物資訊與統計分析研究者，專注於過敏免疫、母嬰菌相、TCR repertoire 以及多體學資料分析。擅長將生物學問題轉化為可行的分析策略，結合生物資訊與統計方法挖掘數據背後的機制與意義。
+          </p>
+
+          <p data-zh="我重視的不只是把分析跑完，而是讓每一步都有研究邏輯：從研究問題、資料品質、統計假設、視覺化到結果解讀，建立清楚、可重現且能支持科研敘事的分析流程。"
+             data-en="My goal is not simply to finish an analysis, but to make every step scientifically defensible—from research question and data quality to statistical assumptions, visualization and interpretation—within a clear and reproducible workflow.">
+            我重視的不只是把分析跑完，而是讓每一步都有研究邏輯：從研究問題、資料品質、統計假設、視覺化到結果解讀，建立清楚、可重現且能支持科研敘事的分析流程。
+          </p>
+
+          <a class="button outline-small" href="#contact">
+            <span data-zh="與我討論研究" data-en="Discuss a Project">與我討論研究</span> →
+          </a>
+        </div>
+
+        <div class="about-points">
+          <article>
+            <span class="point-icon">☼</span>
+            <div>
+              <h3 data-zh="研究導向的解決方案" data-en="Research-oriented solutions">研究導向的解決方案</h3>
+              <p data-zh="以研究問題為核心，提供量身打造的分析策略與方法建議"
+                 data-en="Question-driven analytical strategies tailored to the scientific problem.">
+                以研究問題為核心，提供量身打造的分析策略與方法建議
+              </p>
+            </div>
+          </article>
+          <article>
+            <span class="point-icon">⚗</span>
+            <div>
+              <h3 data-zh="跨領域整合能力" data-en="Cross-domain integration">跨領域整合能力</h3>
+              <p data-zh="生物資訊 × 統計分析 × 臨床應用 × 機器學習"
+                 data-en="Bioinformatics × statistics × clinical research × machine learning">
+                生物資訊 × 統計分析 × 臨床應用 × 機器學習
+              </p>
+            </div>
+          </article>
+          <article>
+            <span class="point-icon">▥</span>
+            <div>
+              <h3 data-zh="從數據到洞見" data-en="From data to insight">從數據到洞見</h3>
+              <p data-zh="重視結果解釋、視覺化呈現與研究故事"
+                 data-en="Emphasis on interpretation, visualization and scientific narrative.">
+                重視結果解釋、視覺化呈現與研究故事
+              </p>
+            </div>
+          </article>
+          <article>
+            <span class="point-icon">∞</span>
+            <div>
+              <h3 data-zh="合作與溝通" data-en="Collaboration & communication">合作與溝通</h3>
+              <p data-zh="與研究團隊緊密合作，共同推進科學發現"
+                 data-en="Close collaboration with research teams to advance scientific discovery.">
+                與研究團隊緊密合作，共同推進科學發現
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section soft-section" id="services">
+    <div class="container">
+      <div class="center-heading">
+        <p class="section-label">SERVICES</p>
+        <h2><span data-zh="服務項目" data-en="Services">服務項目</span> <span class="slash">/</span> Services</h2>
+      </div>
+
+      <div class="service-grid">
+        <article class="service-card purple">
+          <div class="service-heading">
+            <span class="service-icon">▣</span>
+            <div><h3 data-zh="統計分析服務" data-en="Statistical Analysis">統計分析服務</h3><small>Statistical Analysis</small></div>
+          </div>
+          <ul>
+            <li data-zh="群組比較 / 迴歸分析" data-en="Group comparisons / Regression">群組比較 / 迴歸分析</li>
+            <li>Longitudinal Analysis</li>
+            <li data-zh="生存分析 / Survival Analysis" data-en="Survival Analysis">生存分析 / Survival Analysis</li>
+            <li data-zh="機器學習 / Machine Learning" data-en="Machine Learning">機器學習 / Machine Learning</li>
+            <li>Publication-ready figures</li>
+          </ul>
+          <a href="#contact" data-zh="了解更多 →" data-en="Learn more →">了解更多 →</a>
+        </article>
+
+        <article class="service-card blue">
+          <div class="service-heading">
+            <span class="service-icon">⌘</span>
+            <div><h3 data-zh="生物資訊分析服務" data-en="Bioinformatics Analysis">生物資訊分析服務</h3><small>Bioinformatics Analysis</small></div>
+          </div>
+          <ul>
+            <li>RNA-seq / scRNA-seq / Spatial</li>
+            <li data-zh="基因差異表達 / 功能富集分析" data-en="Differential expression / enrichment">基因差異表達 / 功能富集分析</li>
+            <li>TCR/BCR Repertoire Analysis</li>
+            <li>Biomarker Discovery</li>
+            <li data-zh="多體學整合分析" data-en="Multi-omics integration">多體學整合分析</li>
+          </ul>
+          <a href="#contact" data-zh="了解更多 →" data-en="Learn more →">了解更多 →</a>
+        </article>
+
+        <article class="service-card mint">
+          <div class="service-heading">
+            <span class="service-icon">◉</span>
+            <div><h3 data-zh="菌相分析服務" data-en="Microbiome Analysis">菌相分析服務</h3><small>Microbiome Analysis</small></div>
+          </div>
+          <ul>
+            <li>16S rRNA / Shotgun Metagenomics</li>
+            <li>Alpha / Beta Diversity</li>
+            <li>PERMANOVA / ANOSIM</li>
+            <li>LEfSe / MaAsLin2 / PICRUSt2</li>
+            <li data-zh="菌相與臨床資料整合分析" data-en="Microbiome-clinical data integration">菌相與臨床資料整合分析</li>
+          </ul>
+          <a href="#contact" data-zh="了解更多 →" data-en="Learn more →">了解更多 →</a>
+        </article>
+
+        <article class="service-card pink">
+          <div class="service-heading">
+            <span class="service-icon">✣</span>
+            <div><h3 data-zh="科研方案與思路設計" data-en="Research Strategy">科研方案與思路設計</h3><small>Research Strategy</small></div>
+          </div>
+          <ul>
+            <li>Research Question <span data-zh="設定" data-en="definition">設定</span></li>
+            <li data-zh="研究假說 / Hypothesis 建立" data-en="Hypothesis development">研究假說 / Hypothesis 建立</li>
+            <li data-zh="分析策略規劃 / Study Design" data-en="Analysis strategy / Study design">分析策略規劃 / Study Design</li>
+            <li data-zh="多體學整合分析 Pipeline" data-en="Multi-omics analysis pipeline">多體學整合分析 Pipeline</li>
+            <li data-zh="故事線與研究藍圖設計" data-en="Scientific storyline & research roadmap">故事線與研究藍圖設計</li>
+          </ul>
+          <a href="#contact" data-zh="了解更多 →" data-en="Learn more →">了解更多 →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="research">
+    <div class="container">
+      <div class="center-heading">
+        <p class="section-label">RESEARCH FOCUS</p>
+        <h2><span data-zh="研究方向" data-en="Research Focus">研究方向</span> <span class="slash">/</span> Research Focus</h2>
+      </div>
+
+      <div class="research-grid">
+        <article class="research-card">
+          <img src="assets/research-allergy.jpg" alt="Colorful immunology illustration">
+          <h3 data-zh="過敏免疫研究" data-en="Allergy & Immunology">過敏免疫研究</h3>
+          <small>Allergy & Immunology</small>
+          <p data-zh="探索免疫調控、過敏機制與生物標記，解析疾病發生與進展。"
+             data-en="Exploring immune regulation, allergic mechanisms and biomarkers related to disease development.">
+            探索免疫調控、過敏機制與生物標記，解析疾病發生與進展。
+          </p>
+        </article>
+
+        <article class="research-card">
+          <img src="assets/research-microbiome.jpg" alt="Colorful microbiome illustration">
+          <h3 data-zh="母嬰菌相研究" data-en="Maternal & Infant Microbiome">母嬰菌相研究</h3>
+          <small>Maternal & Infant Microbiome</small>
+          <p data-zh="研究母嬰菌相發展、早期定殖與健康結果之關聯。"
+             data-en="Studying maternal–infant microbiome development, early colonization and health outcomes.">
+            研究母嬰菌相發展、早期定殖與健康結果之關聯。
+          </p>
+        </article>
+
+        <article class="research-card">
+          <img src="assets/research-tcr.jpg" alt="Colorful immune receptor illustration">
+          <h3 data-zh="TCR Repertoire 研究" data-en="TCR Repertoire">TCR Repertoire 研究</h3>
+          <small>TCR Repertoire</small>
+          <p data-zh="以 TCR 數據解析免疫反應與疾病機制，尋找潛在免疫標記。"
+             data-en="Using TCR data to characterize immune responses, disease mechanisms and candidate immune markers.">
+            以 TCR 數據解析免疫反應與疾病機制，尋找潛在免疫標記。
+          </p>
+        </article>
+
+        <article class="research-card">
+          <img src="assets/research-multiomics.jpg" alt="Colorful multi-omics data illustration">
+          <h3 data-zh="多體學整合分析" data-en="Multi-omics Integration">多體學整合分析</h3>
+          <small>Multi-omics Integration</small>
+          <p data-zh="整合多層次資料，挖掘生物學意義，建構全觀研究框架。"
+             data-en="Integrating multiple data layers to discover biological meaning and build systems-level research frameworks.">
+            整合多層次資料，挖掘生物學意義，建構全觀研究框架。
+          </p>
+        </article>
+
+        <article class="research-card">
+          <img src="assets/research-ml.jpg" alt="Colorful biomarker network illustration">
+          <h3 data-zh="生物標記與機器學習" data-en="Biomarker & Machine Learning">生物標記與機器學習</h3>
+          <small>Biomarker & ML</small>
+          <p data-zh="結合統計與機器學習建立預測模型，協助篩選與驗證候選標記。"
+             data-en="Combining statistics and machine learning for predictive modeling and biomarker prioritization.">
+            結合統計與機器學習建立預測模型，協助篩選與驗證候選標記。
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section soft-section" id="tutorials">
+    <div class="container">
+      <div class="center-heading">
+        <p class="section-label">TUTORIALS</p>
+        <h2><span data-zh="教學資源" data-en="Tutorials & Notes">教學資源</span> <span class="slash">/</span> Tutorials</h2>
+        <p class="heading-copy"
+           data-zh="未來這裡可以陸續新增菌相、生物資訊、統計分析與科研設計教學。"
+           data-en="This section can grow into practical tutorials on microbiome, bioinformatics, statistics and research design.">
+          未來這裡可以陸續新增菌相、生物資訊、統計分析與科研設計教學。
+        </p>
+      </div>
+
+      <div class="tutorial-grid">
+        <article><span>MICROBIOME</span><h3>Alpha / Beta Diversity</h3><p data-zh="如何選擇多樣性指標、解讀 PCoA 與 PERMANOVA。" data-en="Choosing diversity metrics and interpreting PCoA and PERMANOVA.">如何選擇多樣性指標、解讀 PCoA 與 PERMANOVA。</p><b>Coming soon →</b></article>
+        <article><span>STATISTICS</span><h3>Regression Strategy</h3><p data-zh="從研究問題到 covariates、confounders 與模型診斷。" data-en="From research question to covariates, confounders and model diagnostics.">從研究問題到 covariates、confounders 與模型診斷。</p><b>Coming soon →</b></article>
+        <article><span>IMMUNE REPERTOIRE</span><h3>MiXCR → immunarch</h3><p data-zh="TCR clonotype、diversity、gene usage 與 public clone 工作流程。" data-en="A workflow for TCR clonotypes, diversity, gene usage and public clones.">TCR clonotype、diversity、gene usage 與 public clone 工作流程。</p><b>Coming soon →</b></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact-section" id="contact">
+    <div class="container contact-panel">
+      <div class="contact-main">
+        <span class="contact-icon">✉</span>
+        <div>
+          <h2 data-zh="聯絡我" data-en="Contact">聯絡我</h2>
+          <p data-zh="歡迎研究合作與分析需求討論" data-en="Research collaborations and analytical consultations are welcome.">
+            歡迎研究合作與分析需求討論
+          </p>
+          <!-- 修改成你的 Email -->
+          <a href="mailto:your.email@example.com">your.email@example.com</a>
+        </div>
+      </div>
+
+      <div class="contact-item">
+        <span>⌖</span>
+        <div><b data-zh="地點" data-en="Location">地點</b><small>Taiwan</small></div>
+      </div>
+
+      <div class="contact-item">
+        <span>⌁</span>
+        <div>
+          <b data-zh="更多連結" data-en="More Links">更多連結</b>
+          <!-- 把 # 換成你的網址 -->
+          <small><a href="#" target="_blank">Google Scholar</a> / <a href="#" target="_blank">ORCID</a> / <a href="#" target="_blank">GitHub</a></small>
+        </div>
+      </div>
+
+      <div class="contact-values">
+        <span><strong data-zh="研究導向" data-en="Research-driven">研究導向</strong><small data-zh="問題為核心" data-en="Question first">問題為核心</small></span>
+        <span><strong data-zh="跨域整合" data-en="Integrated">跨域整合</strong><small data-zh="多層次資料" data-en="Multi-layer data">多層次資料</small></span>
+        <span><strong data-zh="可重現" data-en="Reproducible">可重現</strong><small data-zh="分析流程" data-en="Workflows">分析流程</small></span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer-content">
+    <span>© 2026 Bioinfo & Stats Lab. All rights reserved. ♥</span>
+    <span data-zh="請勿透過本網站傳送可識別病人或敏感研究資料。" data-en="Do not submit identifiable patient or sensitive research data through this website.">
+      請勿透過本網站傳送可識別病人或敏感研究資料。
+    </span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
