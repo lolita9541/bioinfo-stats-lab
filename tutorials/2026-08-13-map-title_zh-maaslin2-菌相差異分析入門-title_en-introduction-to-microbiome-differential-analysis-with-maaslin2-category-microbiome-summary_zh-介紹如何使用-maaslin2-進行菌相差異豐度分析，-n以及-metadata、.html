@@ -2,22 +2,33 @@
 <html lang="zh-Hant">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="介紹如何使用 MaAsLin2 進行菌相差異豐度分析，
+以及 metadata、fixed effects 與結果解讀的基本概念。">
 <title>MaAsLin2 菌相差異分析入門 | Bioinfo & Stats Lab</title>
 <link rel="stylesheet" href="/style.css">
 <style>
-.article-wrap{width:min(860px,calc(100% - 36px));margin:70px auto 100px}
-.article-top{display:flex;justify-content:space-between;gap:18px;align-items:center}
-.article-wrap h1{font-size:clamp(2rem,5vw,3.5rem);line-height:1.15}
+.article-wrap{width:min(900px,calc(100% - 36px));margin:62px auto 100px}
+.article-nav{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:42px}
+.article-nav a{color:#6048bd;font-weight:700}
+.article-lang button{border:1px solid #d8d1ee;background:white;padding:7px 11px;border-radius:999px;cursor:pointer}
 .article-meta{font-size:.75rem;letter-spacing:.1em;color:#7854dc;font-weight:800}
-.article-body{margin-top:28px;padding:32px;border:1px solid #e9e6f3;border-radius:20px;box-shadow:0 16px 45px rgba(88,71,126,.08)}
-.article-body pre{overflow:auto;background:#171a24;color:#f5f5f5;padding:16px;border-radius:12px}
-.lang-mini button{border:1px solid #d8d1ee;background:white;padding:7px 10px;border-radius:999px;cursor:pointer}
+.article-wrap h1{font-size:clamp(2.2rem,5vw,3.8rem);line-height:1.12;letter-spacing:-.035em;margin:10px 0}
+.article-subtitle{color:#747a8f;margin-bottom:28px}
+.article-cover{max-height:420px;object-fit:cover;border-radius:20px;margin:26px 0}
+.article-body{margin-top:26px;padding:38px;background:white;border:1px solid #e9e6f3;border-radius:22px;box-shadow:0 16px 45px rgba(88,71,126,.08)}
+.article-body h2,.article-body h3{margin-top:1.7em}
+.article-body p,.article-body li{color:#39415a}
+.article-body pre{overflow:auto;background:#171a24;color:#f5f5f5;padding:18px;border-radius:12px}
+.article-body code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.article-body table{border-collapse:collapse;width:100%} .article-body th,.article-body td{border:1px solid #ddd;padding:8px}
+@media(max-width:650px){.article-body{padding:24px}}
 </style>
 </head><body>
 <main class="article-wrap">
-<div class="article-top"><a href="/">← Home</a><div class="lang-mini"><button onclick="document.documentElement.lang='zh-Hant';document.querySelectorAll('[data-enblock]').forEach(x=>x.hidden=true);document.querySelectorAll('[data-zhblock]').forEach(x=>x.hidden=false)">中文</button> <button onclick="document.documentElement.lang='en';document.querySelectorAll('[data-zhblock]').forEach(x=>x.hidden=true);document.querySelectorAll('[data-enblock]').forEach(x=>x.hidden=false)">EN</button></div></div>
-<p class="article-meta">MICROBIOME · TUTORIAL</p>
-<div data-zhblock><h1>MaAsLin2 菌相差異分析入門</h1></div><div data-enblock hidden><h1>Introduction to Microbiome Differential Analysis with MaAsLin2</h1></div>
-<div class="article-body" data-zhblock><p>這是一段測試用的文章，希望順利發布。</p></div>
-<div class="article-body" data-enblock hidden><p>English version can be added from the CMS field “English Content”.</p></div>
-</main></body></html>
+<div class="article-nav"><a href="/#tutorials">← Tutorials</a><div class="article-lang"><button onclick="setArticleLang('zh')">中文</button> <button onclick="setArticleLang('en')">EN</button></div></div>
+<p class="article-meta">MICROBIOME · 2026-08-13 16:31:00+08:00</p>
+<section data-article-zh><h1>MaAsLin2 菌相差異分析入門</h1><p class="article-subtitle">Introduction to Microbiome Differential Analysis with MaAsLin2</p><div class="article-body"><p>這是一段測試用的文章，希望順利發布。</p></div></section>
+<section data-article-en hidden><h1>Introduction to Microbiome Differential Analysis with MaAsLin2</h1><p class="article-subtitle">MaAsLin2 菌相差異分析入門</p><div class="article-body"><p>English version will be available soon.</p></div></section>
+</main>
+<script>function setArticleLang(l){document.documentElement.lang=l==='zh'?'zh-Hant':'en';document.querySelector('[data-article-zh]').hidden=l!=='zh';document.querySelector('[data-article-en]').hidden=l!=='en';}</script>
+</body></html>

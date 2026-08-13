@@ -1,0 +1,98 @@
+[
+  {
+    "title_zh": "統計分析服務",
+    "title_en": "Statistical Analysis",
+    "description_zh": "依研究問題規劃統計方法、模型與視覺化策略。",
+    "description_en": "Statistical modeling and visualization strategies driven by the research question.",
+    "color": "purple",
+    "icon": "▣",
+    "items_zh": [
+      "群組比較 / 迴歸分析",
+      "Longitudinal Analysis",
+      "生存分析 / Survival Analysis",
+      "機器學習 / Machine Learning",
+      "Publication-ready figures"
+    ],
+    "items_en": [
+      "Group comparisons / Regression",
+      "Longitudinal Analysis",
+      "Survival Analysis",
+      "Machine Learning",
+      "Publication-ready figures"
+    ],
+    "order": 1,
+    "slug": "statistical-analysis"
+  },
+  {
+    "title_zh": "生物資訊分析服務",
+    "title_en": "Bioinformatics Analysis",
+    "description_zh": "針對次世代定序與多體學資料建立可重現的分析流程。",
+    "description_en": "Reproducible analytical workflows for next-generation sequencing and multi-omics datasets.",
+    "color": "blue",
+    "icon": "⌘",
+    "items_zh": [
+      "RNA-seq / scRNA-seq / Spatial",
+      "基因差異表達 / 功能富集分析",
+      "TCR/BCR Repertoire Analysis",
+      "Biomarker Discovery",
+      "多體學整合分析"
+    ],
+    "items_en": [
+      "RNA-seq / scRNA-seq / Spatial",
+      "Differential expression / enrichment",
+      "TCR/BCR Repertoire Analysis",
+      "Biomarker Discovery",
+      "Multi-omics integration"
+    ],
+    "order": 2,
+    "slug": "bioinformatics-analysis"
+  },
+  {
+    "title_zh": "菌相分析服務",
+    "title_en": "Microbiome Analysis",
+    "description_zh": "從菌相結構、差異菌、功能預測到臨床變項整合。",
+    "description_en": "From community structure and differential taxa to functional prediction and clinical integration.",
+    "color": "mint",
+    "icon": "◉",
+    "items_zh": [
+      "16S rRNA / Shotgun Metagenomics",
+      "Alpha / Beta Diversity",
+      "PERMANOVA / ANOSIM",
+      "LEfSe / MaAsLin2 / PICRUSt2",
+      "菌相與臨床資料整合分析"
+    ],
+    "items_en": [
+      "16S rRNA / Shotgun Metagenomics",
+      "Alpha / Beta Diversity",
+      "PERMANOVA / ANOSIM",
+      "LEfSe / MaAsLin2 / PICRUSt2",
+      "Microbiome-clinical data integration"
+    ],
+    "order": 3,
+    "slug": "microbiome-analysis"
+  },
+  {
+    "title_zh": "科研方案與思路設計",
+    "title_en": "Research Strategy",
+    "description_zh": "在分析前先釐清研究問題、假說與可行的分析框架。",
+    "description_en": "Clarify the research question, hypothesis and feasible analytical framework before analysis begins.",
+    "color": "pink",
+    "icon": "✣",
+    "items_zh": [
+      "Research Question 設定",
+      "研究假說 / Hypothesis 建立",
+      "分析策略規劃 / Study Design",
+      "多體學整合分析 Pipeline",
+      "故事線與研究藍圖設計"
+    ],
+    "items_en": [
+      "Research question definition",
+      "Hypothesis development",
+      "Analysis strategy / Study design",
+      "Multi-omics analysis pipeline",
+      "Scientific storyline & research roadmap"
+    ],
+    "order": 4,
+    "slug": "research-strategy"
+  }
+]

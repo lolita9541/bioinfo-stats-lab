@@ -1,0 +1,47 @@
+[
+  {
+    "title_zh": "過敏免疫研究",
+    "title_en": "Allergy & Immunology",
+    "description_zh": "探索免疫調控、過敏機制與生物標記，解析疾病發生與進展。",
+    "description_en": "Exploring immune regulation, allergic mechanisms and biomarkers related to disease development.",
+    "image": "/assets/research-allergy.jpg",
+    "order": 1,
+    "slug": "allergy-immunology"
+  },
+  {
+    "title_zh": "母嬰菌相研究",
+    "title_en": "Maternal & Infant Microbiome",
+    "description_zh": "研究母嬰菌相發展、早期定殖與健康結果之關聯。",
+    "description_en": "Studying maternal–infant microbiome development, early colonization and health outcomes.",
+    "image": "/assets/research-microbiome.jpg",
+    "order": 2,
+    "slug": "maternal-infant-microbiome"
+  },
+  {
+    "title_zh": "TCR Repertoire 研究",
+    "title_en": "TCR Repertoire",
+    "description_zh": "以 TCR 數據解析免疫反應與疾病機制，尋找潛在免疫標記。",
+    "description_en": "Using TCR data to characterize immune responses, disease mechanisms and candidate immune markers.",
+    "image": "/assets/research-tcr.jpg",
+    "order": 3,
+    "slug": "tcr-repertoire"
+  },
+  {
+    "title_zh": "多體學整合分析",
+    "title_en": "Multi-omics Integration",
+    "description_zh": "整合多層次資料，挖掘生物學意義，建構全觀研究框架。",
+    "description_en": "Integrating multiple data layers to discover biological meaning and build systems-level research frameworks.",
+    "image": "/assets/research-multiomics.jpg",
+    "order": 4,
+    "slug": "multiomics-integration"
+  },
+  {
+    "title_zh": "生物標記與機器學習",
+    "title_en": "Biomarker & Machine Learning",
+    "description_zh": "結合統計與機器學習建立預測模型，協助篩選與驗證候選標記。",
+    "description_en": "Combining statistics and machine learning for predictive modeling and biomarker prioritization.",
+    "image": "/assets/research-ml.jpg",
+    "order": 5,
+    "slug": "biomarker-ml"
+  }
+]

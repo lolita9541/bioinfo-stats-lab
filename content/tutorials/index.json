@@ -1,20 +1,22 @@
 [
   {
+    "category": "Microbiome",
+    "title_zh": "MaAsLin2 菌相差異分析入門",
+    "title_en": "Introduction to Microbiome Differential Analysis with MaAsLin2",
+    "summary_zh": "介紹如何使用 MaAsLin2 進行菌相差異豐度分析，\n以及 metadata、fixed effects 與結果解讀的基本概念。",
+    "summary_en": "介紹如何使用 MaAsLin2 進行菌相差異豐度分析，\n以及 metadata、fixed effects 與結果解讀的基本概念。",
+    "date": "2026-08-13 16:31:00+08:00",
+    "image": "",
+    "url": "/tutorials/2026-08-13-map-title_zh-maaslin2-菌相差異分析入門-title_en-introduction-to-microbiome-differential-analysis-with-maaslin2-category-microbiome-summary_zh-介紹如何使用-maaslin2-進行菌相差異豐度分析，-n以及-metadata、.html"
+  },
+  {
     "category": "Bioinformatics",
     "title_zh": "第一篇教學文章",
     "title_en": "My First Tutorial",
     "summary_zh": "這是一篇 CMS 測試文章，之後可以在後台修改或刪除。",
     "summary_en": "A test article for the CMS.",
-    "date": "2026-08-13T16:00:00+08:00",
+    "date": "2026-08-13 16:00:00+08:00",
+    "image": "",
     "url": "/tutorials/2026-08-13-welcome.html"
-  },
-  {
-    "category": "Microbiome",
-    "title_zh": "MaAsLin2 菌相差異分析入門",
-    "title_en": "Introduction to Microbiome Differential Analysis with MaAsLin2",
-    "summary_zh": "|-",
-    "summary_en": "|-",
-    "date": "2026-08-13T16:31:00.000+08:00",
-    "url": "/tutorials/2026-08-13-map-title_zh-maaslin2-菌相差異分析入門-title_en-introduction-to-microbiome-differential-analysis-with-maaslin2-category-microbiome-summary_zh-介紹如何使用-maaslin2-進行菌相差異豐度分析，-n以及-metadata、.html"
   }
 ]
