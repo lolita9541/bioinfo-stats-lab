@@ -1,0 +1,54 @@
+backend:
+  name: github
+  repo: lolita9541/bioinfo-stats-lab
+  branch: main
+
+site_url: https://brilliant-kringle-39b162.netlify.app
+display_url: https://brilliant-kringle-39b162.netlify.app
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "tutorials"
+    label: "教學資源 Tutorials"
+    folder: "content/tutorials"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "中文標題", name: "title_zh", widget: "string"}
+      - {label: "English Title", name: "title_en", widget: "string", required: false}
+      - {label: "分類", name: "category", widget: "select", options: ["Microbiome","Statistics","Bioinformatics","TCR","Multi-omics","Research Strategy"]}
+      - {label: "發布日期", name: "date", widget: "datetime"}
+      - {label: "摘要", name: "summary_zh", widget: "text", required: false}
+      - {label: "Summary (EN)", name: "summary_en", widget: "text", required: false}
+      - {label: "封面圖片", name: "image", widget: "image", required: false}
+      - {label: "中文內容", name: "body", widget: "markdown"}
+      - {label: "English Content", name: "body_en", widget: "markdown", required: false}
+
+  - name: "research"
+    label: "研究方向 Research"
+    folder: "content/research"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "中文標題", name: "title_zh", widget: "string"}
+      - {label: "English Title", name: "title_en", widget: "string"}
+      - {label: "中文介紹", name: "description_zh", widget: "text"}
+      - {label: "English Description", name: "description_en", widget: "text", required: false}
+      - {label: "研究圖片", name: "image", widget: "image", required: false}
+      - {label: "顯示順序", name: "order", widget: "number", default: 10, value_type: "int"}
+      - {label: "詳細內容", name: "body", widget: "markdown", required: false}
+
+  - name: "services"
+    label: "服務項目 Services"
+    folder: "content/services"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "中文名稱", name: "title_zh", widget: "string"}
+      - {label: "English Name", name: "title_en", widget: "string"}
+      - {label: "中文簡介", name: "description_zh", widget: "text"}
+      - {label: "English Description", name: "description_en", widget: "text", required: false}
+      - {label: "顯示順序", name: "order", widget: "number", default: 10, value_type: "int"}
+      - {label: "詳細內容", name: "body", widget: "markdown", required: false}
