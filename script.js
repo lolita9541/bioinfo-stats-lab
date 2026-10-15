@@ -125,8 +125,8 @@ function renderAbout() {
     const headline = currentLanguage === 'zh' ? aboutData.headline_zh : aboutData.headline_en;
     const intro1 = currentLanguage === 'zh' ? aboutData.intro1_zh : aboutData.intro1_en;
     const intro2 = currentLanguage === 'zh' ? aboutData.intro2_zh : aboutData.intro2_en;
-    const button = currentLanguage === 'zh' ? '與我討論研究 →' : 'Discuss a Project →';
-    copy.innerHTML = `<p class="section-label">ABOUT ME</p><h2>${escapeHtml(headline || '')}</h2><p>${escapeHtml(intro1 || '')}</p><p>${escapeHtml(intro2 || '')}</p><a class="button outline-small" href="#contact">${button}</a>`;
+    const button = currentLanguage === 'zh' ? '洽詢科研服務 →' : 'Discuss Your Project →';
+    copy.innerHTML = `<p class="section-label">ABOUT ARU SCIENTIFIC</p><h2>${escapeHtml(headline || '')}</h2><p>${escapeHtml(intro1 || '')}</p><p>${escapeHtml(intro2 || '')}</p><a class="button outline-small" href="#contact">${button}</a>`;
   }
   if (points && Array.isArray(aboutData.highlights)) {
     points.innerHTML = aboutData.highlights.map(item => {
