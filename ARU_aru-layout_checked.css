@@ -1,0 +1,12 @@
+/* ARU Scientific responsive layout — loaded after style.css */
+.brand .aru-brand-logo { display:block; width: min(230px, 100%); height:auto; object-fit:contain; }
+.service-grid, .research-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:24px; align-items:stretch; }
+.service-grid > *, .research-grid > * { min-width:0; }
+.service-card { display:flex; flex-direction:column; }
+.service-card > a:last-child { margin-top:auto; }
+.research-card img { display:block; width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; }
+@media (max-width: 1023px) { .service-grid, .research-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; } }
+@media (max-width: 600px) { .service-grid, .research-grid { grid-template-columns:minmax(0,1fr); gap:16px; } .brand .aru-brand-logo { width:min(180px,100%); } }
+
+/* Prevent service content from forcing unequal card heights */
+.service-card ul { min-height:0; }
