@@ -10,3 +10,24 @@
 
 /* Prevent service content from forcing unequal card heights */
 .service-card ul { min-height:0; }
+/* ARU Scientific 官方導覽列 LOGO */
+.site-header .brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.site-header .brand-logo {
+  display: block;
+  width: auto;
+  height: 52px;
+  max-width: 240px;
+  object-fit: contain;
+}
+
+@media (max-width: 720px) {
+  .site-header .brand-logo {
+    height: 40px;
+    max-width: 190px;
+  }
+}
