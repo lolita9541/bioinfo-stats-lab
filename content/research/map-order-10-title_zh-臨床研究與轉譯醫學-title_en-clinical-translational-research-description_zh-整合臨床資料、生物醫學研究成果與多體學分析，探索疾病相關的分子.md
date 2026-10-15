@@ -9,5 +9,6 @@ description_en: >+
   interdisciplinary data integration to support evidence generation from basic
   research to clinical applications.
 
+image: /assets/uploads/research-clinical.jpg
 order: 10
 ---
