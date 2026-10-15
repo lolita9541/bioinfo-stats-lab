@@ -106,5 +106,17 @@
     "items_en": [],
     "order": 10,
     "slug": "map-color-purple-icon-✦-order-10-title_zh-實驗室耗材及科研採購-title_en-laboratory-supplies-scientific-procurement-description_zh-凱威科研提供多元化的實驗室耗材、研究試"
+  },
+  {
+    "title_zh": "科研產品與配方開發",
+    "title_en": "Scientific Product & Formulation Development",
+    "description_zh": "結合科學研究與產品開發需求，提供保健產品、營養補充品及化妝品相關的配方研究、原料評估與產品開發諮詢，協助客戶從科學概念、配方規劃到產品可行性評估，推動研究成果的實際應用。",
+    "description_en": "Supporting the development of health, nutritional, and cosmetic products through scientific formulation research, ingredient evaluation, and product development consultation. We help clients translate scientific concepts into practical product strategies, from formulation planning to feasibility assessment.",
+    "color": "pink",
+    "icon": "🧪",
+    "items_zh": [],
+    "items_en": [],
+    "order": 10,
+    "slug": "map-color-pink-icon-🧪-order-10-title_zh-科研產品與配方開發-title_en-scientific-product-formulation-development-description_zh-結合科學研究與產品開發需求，提供保健產品"
   }
 ]
