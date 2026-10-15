@@ -1,7 +1,7 @@
 {
   "headline_zh": "從研究問題出發，而不是從軟體出發。",
   "headline_en": "Start from the research question, not the software.",
-  "intro1_zh": "我是一名生物資訊與統計分析研究者，專注於過敏免疫、母嬰菌相、TCR repertoire 以及多體學資料分析。擅長將生物學問題轉化為可行的分析策略，結合生物資訊與統計方法挖掘數據背後的機制與意義。",
+  "intro1_zh": "我是一名生物資訊與統計分析研究者，專注於過敏免疫、母嬰菌相、TCR repertoire 以及多體學資料分析。擅長將生物學問題轉化為可行的分析策略，結合生物資訊與統計方法挖掘數據背後的機制與意義。（網站更新測試）",
   "intro1_en": "I am a bioinformatics and statistical-analysis researcher focusing on allergy and immunology, maternal–infant microbiome, TCR repertoire and multi-omics data. My work translates biological questions into practical analytical strategies and combines computational and statistical methods to uncover mechanisms and meaning behind the data.",
   "intro2_zh": "我重視的不只是把分析跑完，而是讓每一步都有研究邏輯：從研究問題、資料品質、統計假設、視覺化到結果解讀，建立清楚、可重現且能支持科研敘事的分析流程。",
   "intro2_en": "My goal is not simply to finish an analysis, but to make every step scientifically defensible—from research question and data quality to statistical assumptions, visualization and interpretation—within a clear and reproducible workflow.",
